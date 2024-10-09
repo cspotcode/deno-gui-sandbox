@@ -7,6 +7,13 @@ They include DearImGUI port.
 
 Check their examples: https://github.com/deno-windowing/dwm/tree/main/examples
 
+## Get Deno on Windows
+
+```shell
+winget install DenoLand.Deno
+# close and re-open terminal to get new env vars
+```
+
 ## Run
 
 Gotta pass `--unstable-ffi` cuz it uses FFI to call OS's native DLLs.
