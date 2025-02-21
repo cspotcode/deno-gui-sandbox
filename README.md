@@ -16,6 +16,16 @@ winget install DenoLand.Deno
 
 ## Run
 
+tl;dr:
+
+```shell
+# Run it
+$ deno run --unstable-ffi -A ./imgui2.ts
+# Compile to EXE
+$ deno compile --unstable-ffi -A ./imgui2.ts
+$ ./imgui2.exe
+```
+
 Gotta pass `--unstable-ffi` cuz it uses FFI to call OS's native DLLs.
 
 ```shell
